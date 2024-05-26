@@ -1,0 +1,164 @@
+/* Стили для всего документа */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Стили для заголовков */
+h1, h2 {
+    color: #f5f2f2;
+}
+
+/* Стили для главного контейнера */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Стили для боковой панели */
+aside {
+    flex-basis: 30%;
+    background-color: #333232;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для списка уроков */
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+/* Стили для ссылок в списке уроков */
+aside ul li a {
+    color: rgb(0, 255, 21);
+    text-decoration: none;
+}
+
+/* Стили для контента урока */
+.lesson-content {
+    flex-basis: 65%;
+    background-color: #333232;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(250, 244, 244, 0.901);
+}
+
+/* Стили для видео */
+.lesson-content video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Стили для подвала */
+
+
+p {
+    color: bisque;
+}
+
+ol {
+    color: bisque;
+}
+
+#py1 {
+    display: block;
+    margin: auto;
+    width: 50%; /* Установите желаемую ширину изображения */
+    height: auto; /* Сохранить пропорции */
+}
+/* Стилизация заголовков */
+h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold; /* Цвет текста */
+    margin-top: 20px; /* Отступ сверху */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+/* Стилизация текста */
+p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6; /* Межстрочный интервал */
+    color: #ccc;/* Цвет текста */
+    margin-bottom: 15px; /* Отступ снизу */
+}
+
+/* Стилизация списков */
+ul, ol {
+    margin-left: 20px; /* Отступ слева */
+    margin-bottom: 15px; /* Отступ снизу */
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.6; /* Межстрочный интервал */
+    color: #ccc; /* Цвет текста */
+}
+
+/* Выделение ключевых фраз */
+em {
+    font-style: italic;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+/* Стилизация блоков с фоновой заливкой */
+blockquote {/* Цвет фона */
+    border-left: 5px solid #ccc; /* Левая граница */
+    padding: 10px 20px; /* Внутренний отступ */
+    margin-bottom: 15px; /* Отступ снизу */
+}
+
+/* Стилизация изображений */
+img {
+    max-width: 100%; /* Максимальная ширина изображения */
+    height: auto; /* Автоматическая высота */
+    display: block; /* Блочный элемент */
+    margin-bottom: 15px;
+    border: 1px solid #fff; /* Отступ снизу */
+}
+
+#nnscheme {
+    width: 150%; /* Увеличить на 50% */
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* Стили для шапки сайта */
+header {
+    background-color: #333232;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.nav-link {
+    color: #fff;
+}
